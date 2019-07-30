@@ -14,7 +14,7 @@
 #
 ############################################################################
 
-import grpc_lib
+from services import grpc_lib
 
 from protos_gen import gnmi_pb2 as gnmi
 from protos_gen import gnmi_pb2_grpc as gnmi_stub

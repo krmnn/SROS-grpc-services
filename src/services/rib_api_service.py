@@ -14,7 +14,7 @@
 #
 ############################################################################
 
-from grpc_lib import Rpc
+from services.grpc_lib import Rpc
 
 from protos_gen import nokia_rib_api_pb2 as rib
 from protos_gen import nokia_rib_api_pb2_grpc as rib_stub

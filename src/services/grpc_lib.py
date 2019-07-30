@@ -20,7 +20,7 @@ from grpc import ssl_channel_credentials, insecure_channel, secure_channel
 
 from collections import OrderedDict
 from threading import Thread
-from Queue import Queue
+from queue import Queue
 import time
 
 from google.protobuf import json_format
